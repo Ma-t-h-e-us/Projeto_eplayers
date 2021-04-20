@@ -150,9 +150,21 @@ header {
     text-transform: uppercase;
     width: 10px;
 }
+.sequencia_de_jogos {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sequencia_de_jogos_2 {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .partida_borda_esquerda {
-    border-right: 2px solid #FFFFFF;
-    padding-right: 100px
+    border-left: 2px solid #FFFFFF;
+    padding-left: 100px;
 }
 .noticias {
     background-color: #1E1C21;
