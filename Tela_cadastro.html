@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="eplayers.css">
+</head>
+
+<body>
+    <main>
+        <section class="banner">
+            <div class="container banner_cadastro_jogador">
+                <h1>Cadastro de Jogador</h1>
+            </div>
+        </section>
+        <section class="conteudo_cadastro_jogador">
+            <div class="container cadastro_jogador_inserir_dados">
+                <h3>Nome do Jogador</h3>
+                <input type="text" id="text" placeholder="" />
+                <h3>Email</h3>
+                <input type="email" id="text" placeholder="" />
+                <h3>Senha</h3>
+                <input type="password" id="text" placeholder="" />
+                <h3>Equipe</h3>
+                <input list="opcao_de_jogos" id="opcao_jogo" name="jogos" />
+
+                <datalist id="opcao_de_jogos">
+                    <option value="Rocket League">
+                    <option value="Valorant">
+                    <option value="League of Leagends">
+                    <option value="FIFA">
+                    <option value="Counter Strike">
+                </datalist>
+                <button class="botao_cadastar">Cadastrar</button>
+            </div>
+
+            
+            <div class=" container lista_de_jogadores">
+                <h2>Lista de Jogadores</h2>
+                <table class="tabela_jogadores">
+                    <tr>
+                        <th>Nome do Jogador</th>
+                        <th>Equipe</th>
+                      </tr>
+                      <tr>
+                        <td>Tiago/Crivela</td>
+                        <td>Senai</td>
+                      </tr>
+                      <tr>
+                        <td>Uberlei</td>
+                        <td>Senai</tr>
+                      </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
