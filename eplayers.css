@@ -326,6 +326,8 @@ footer {
 }
 
 /* TELA DE CADASTRO CSS */
+/* TELA DE CADASTRO CSS */
+/* TELA DE CADASTRO CSS */
 
 .banner {
     background-image: url(../Senai_Eplayers/midia/valorant-ep1-ato3-publi.jpg);
@@ -335,6 +337,7 @@ footer {
     height: 370px;
     border-top: 4px solid #FF0000;
     border-bottom: 4px solid #FF0000;
+    margin-top: 80px;
 }
 .banner_cadastro_jogador {
     display: flex;
@@ -342,8 +345,7 @@ footer {
     align-items: center;
     height: 100%;
     width: 100%;
-    background: #DF791A;
-    opacity: 75%;
+    background: linear-gradient(90deg, rgba(52, 101, 227, 0.63) 0%, rgba(255, 122, 0, 0.63) 100%);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -445,6 +447,116 @@ footer {
     font-size: 20px;
 }
 .lista_de_jogadores td {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+/* TELA CADASTRO DE TIMES */
+/* TELA CADASTRO DE TIMES */
+/* TELA CADASTRO DE TIMES */
+
+.banner_times {
+    background-image: url(../Senai_Eplayers/midia/11-11-2019182835737_SENNA-Ecommerce.jpg);
+    background-repeat: no-repeat;
+    background-position-y: -80px;
+    background-size: cover;
+    height: 370px;
+    border-top: 4px solid #3465E3;
+    border-bottom: 4px solid #3465E3;
+    margin-top: 80px;
+}
+.banner_cadastro_times {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(52, 101, 227, 0.63) 0%, rgba(255, 122, 0, 0.63) 100%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: #FFFFFF
+}
+.conteudo_cadastro_times {
+    background-color: #1E1C21;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cadastro_times_inserir_dados {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(180deg, #000000 0%, rgba(83, 83, 83, 0.577381) 25%, rgba(196, 196, 196, 0) 87.5%);
+    box-shadow: 1px 1px 20px 4px #000000;
+    color: #FFFFFF;
+    width: 513px;
+    height: 270px;
+    padding: 35px 70px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.cadastro_times_inserir_dados h3 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    width: 100%;
+}
+.cadastro_times_inserir_dados input{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.lista_de_times {
+    width: 513px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+.lista_de_times h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+}
+.tabela_times {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.equipe_e_emblema {
+    background-color: black;
+    border: 2px solid #FFFFFF;
+    padding: 15px 10px;
+}
+.nome_equipe_emblema {
+    border-right: 2px solid #FFFFFF;
+    border-left: 2px solid #FFFFFF;
+    padding: 7.5px 10px;
+}
+.nome_equipe_emblema_de_baixo {
+    border-right: 2px solid #FFFFFF;
+    border-left: 2px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+    padding: 7.5px 10px;
+}
+.tabela_times tr {
+    display: flex;
+    justify-content: space-between;
+}
+.lista_de_times th {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+}
+.lista_de_times td {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: normal;
