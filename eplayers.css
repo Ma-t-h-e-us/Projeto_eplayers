@@ -17,6 +17,9 @@ header {
     z-index: 99;
     top: 0;
 }
+#diga_nao_a_rolagem {
+    overflow-y: hidden;
+}
 .container_header {
     display: flex;
     justify-content: space-between;
@@ -51,6 +54,7 @@ header {
 .liga_eplayers a {
     margin-top: 1.5vw;
 }
+
 .sova {
     margin-left: 1.5vw;
 
